@@ -1,7 +1,7 @@
-package org.databaseproject.service;
+package org.databaseproject.oltp.service;
 
-import org.databaseproject.model.Transaction;
-import org.databaseproject.repository.TransactionRepository;
+import org.databaseproject.oltp.model.Transaction;
+import org.databaseproject.oltp.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

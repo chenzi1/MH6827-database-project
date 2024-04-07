@@ -1,12 +1,11 @@
-package org.databaseproject.service;
+package org.databaseproject.oltp.service;
 
-import org.databaseproject.model.Card;
-import org.databaseproject.model.Customer;
-import org.databaseproject.repository.CardRepository;
-import org.databaseproject.repository.CustomerRepository;
+import org.databaseproject.oltp.model.Card;
+import org.databaseproject.oltp.repository.CardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -17,5 +16,9 @@ public class CardService {
 
     public Optional<Card> getCard(String id) {
         return cardRepository.findById(id);
+    }
+
+    public List<Card> getAllCards() {
+        return cardRepository.findAll();
     }
 }

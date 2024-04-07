@@ -1,8 +1,8 @@
 package org.databaseproject.controller;
 
-import org.databaseproject.service.CardService;
-import org.databaseproject.service.CustomerService;
-import org.databaseproject.service.TransactionService;
+import org.databaseproject.oltp.service.CardService;
+import org.databaseproject.oltp.service.CustomerService;
+import org.databaseproject.oltp.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

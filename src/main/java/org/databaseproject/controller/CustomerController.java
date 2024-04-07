@@ -1,7 +1,7 @@
 package org.databaseproject.controller;
 
-import org.databaseproject.model.Customer;
-import org.databaseproject.service.CustomerService;
+import org.databaseproject.oltp.model.Customer;
+import org.databaseproject.oltp.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

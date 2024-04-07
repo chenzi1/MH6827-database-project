@@ -1,7 +1,6 @@
-package org.databaseproject.repository;
+package org.databaseproject.oltp.repository;
 
-import org.databaseproject.model.Card;
-import org.databaseproject.model.Customer;
+import org.databaseproject.oltp.model.Card;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CardRepository extends JpaRepository<Card, String> {

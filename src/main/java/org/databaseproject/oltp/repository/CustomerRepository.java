@@ -1,6 +1,6 @@
-package org.databaseproject.repository;
+package org.databaseproject.oltp.repository;
 
-import org.databaseproject.model.Customer;
+import org.databaseproject.oltp.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CustomerRepository extends JpaRepository<Customer, String> {
